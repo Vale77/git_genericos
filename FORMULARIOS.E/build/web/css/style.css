@@ -1,0 +1,78 @@
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+    color: #FFF;
+}
+
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
+    color: #F2F1EF;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #FFF;
+}
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+    color: #F2F1EF;
+}
+
+
+/* index.html */
+
+.html-index {
+    height: 100%;
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.5) inset;
+}
+
+.body-index {
+    background-image: url("../src/wallpaper4.jpg");
+    background-size: 90% auto;
+    background-position: center;
+}
+
+@media (max-width:992px) {
+    .navbar-default {
+	background-color: rgba(30,30,30,0.15);
+    }
+
+    .navbar-default .navbar-toggle,
+    .navbar-default .navbar-toggle:focus,
+    .navbar-default .navbar-toggle:hover {
+	border-color: transparent;
+	background-color: transparent;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+	background-color: #EEE;
+    }
+
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+	border-color: transparent;
+    }
+
+    .body-index {
+	background-size: auto 100%;
+    }
+}
+
+/* Container */
+
+
+.descripcion {
+    font-family: "Raleway";
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width:992px) {
+    .descripcion {
+	padding-top: 12rem;
+    }
+}

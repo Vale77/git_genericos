@@ -1,0 +1,207 @@
+mar 12, 2019 12:00:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Server version:        Apache Tomcat/7.0.93
+mar 12, 2019 12:00:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Server built:          Feb 16 2019 17:13:17 UTC
+mar 12, 2019 12:00:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Server number:         7.0.93.0
+mar 12, 2019 12:00:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: OS Name:               Windows 8.1
+mar 12, 2019 12:00:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: OS Version:            6.3
+mar 12, 2019 12:00:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Architecture:          amd64
+mar 12, 2019 12:00:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Java Home:             C:\Program Files\Java\jdk1.8.0_102\jre
+mar 12, 2019 12:00:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: JVM Version:           1.8.0_102-b14
+mar 12, 2019 12:00:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: JVM Vendor:            Oracle Corporation
+mar 12, 2019 12:00:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: CATALINA_BASE:         C:\tomcat\apache-tomcat-7.0.93
+mar 12, 2019 12:00:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: CATALINA_HOME:         C:\tomcat\apache-tomcat-7.0.93
+mar 12, 2019 12:00:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Djava.util.logging.config.file=C:\tomcat\apache-tomcat-7.0.93\conf\logging.properties
+mar 12, 2019 12:00:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+mar 12, 2019 12:00:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|ASUS
+mar 12, 2019 12:00:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+mar 12, 2019 12:00:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Dignore.endorsed.dirs=
+mar 12, 2019 12:00:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Dcatalina.base=C:\tomcat\apache-tomcat-7.0.93
+mar 12, 2019 12:00:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Dcatalina.home=C:\tomcat\apache-tomcat-7.0.93
+mar 12, 2019 12:00:25 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMACIÓN: Command line argument: -Djava.io.tmpdir=C:\tomcat\apache-tomcat-7.0.93\temp
+mar 12, 2019 12:00:25 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMACIÓN: Cargada la biblioteca nativa APR de Apache Tomcat 1.2.21 con la versión APR 1.6.5.
+mar 12, 2019 12:00:25 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMACIÓN: Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true].
+mar 12, 2019 12:00:25 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFORMACIÓN: OpenSSL inicializado correctamente (OpenSSL 1.1.1a  20 Nov 2018)
+mar 12, 2019 12:00:26 PM org.apache.coyote.AbstractProtocol init
+INFORMACIÓN: Initializing ProtocolHandler ["http-apr-8090"]
+mar 12, 2019 12:00:26 PM org.apache.coyote.AbstractProtocol init
+INFORMACIÓN: Initializing ProtocolHandler ["ajp-apr-8009"]
+mar 12, 2019 12:00:26 PM org.apache.catalina.startup.Catalina load
+INFORMACIÓN: Initialization processed in 1475 ms
+mar 12, 2019 12:00:26 PM org.apache.catalina.core.StandardService startInternal
+INFORMACIÓN: Arrancando servicio Catalina
+mar 12, 2019 12:00:26 PM org.apache.catalina.core.StandardEngine startInternal
+INFORMACIÓN: Starting Servlet Engine: Apache Tomcat/7.0.93
+mar 12, 2019 12:00:26 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMACIÓN: Desplieque del descriptor de configuración C:\tomcat\apache-tomcat-7.0.93\conf\Catalina\localhost\FORMULARIOS.xml
+mar 12, 2019 12:00:27 PM org.apache.catalina.startup.TldConfig execute
+INFORMACIÓN: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+mar 12, 2019 12:00:27 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+ADVERTENCIA: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [104] milliseconds.
+mar 12, 2019 12:00:27 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMACIÓN: Deployment of configuration descriptor C:\tomcat\apache-tomcat-7.0.93\conf\Catalina\localhost\FORMULARIOS.xml has finished in 1.470 ms
+mar 12, 2019 12:00:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio C:\tomcat\apache-tomcat-7.0.93\webapps\docs de la aplicación web
+mar 12, 2019 12:00:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Deployment of web application directory C:\tomcat\apache-tomcat-7.0.93\webapps\docs has finished in 96 ms
+mar 12, 2019 12:00:28 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio C:\tomcat\apache-tomcat-7.0.93\webapps\examples de la aplicación web
+mar 12, 2019 12:00:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Deployment of web application directory C:\tomcat\apache-tomcat-7.0.93\webapps\examples has finished in 2.140 ms
+mar 12, 2019 12:00:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio C:\tomcat\apache-tomcat-7.0.93\webapps\host-manager de la aplicación web
+mar 12, 2019 12:00:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Deployment of web application directory C:\tomcat\apache-tomcat-7.0.93\webapps\host-manager has finished in 176 ms
+mar 12, 2019 12:00:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio C:\tomcat\apache-tomcat-7.0.93\webapps\manager de la aplicación web
+mar 12, 2019 12:00:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Deployment of web application directory C:\tomcat\apache-tomcat-7.0.93\webapps\manager has finished in 108 ms
+mar 12, 2019 12:00:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Despliegue del directorio C:\tomcat\apache-tomcat-7.0.93\webapps\ROOT de la aplicación web
+mar 12, 2019 12:00:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMACIÓN: Deployment of web application directory C:\tomcat\apache-tomcat-7.0.93\webapps\ROOT has finished in 96 ms
+mar 12, 2019 12:00:30 PM org.apache.coyote.AbstractProtocol start
+INFORMACIÓN: Starting ProtocolHandler ["http-apr-8090"]
+mar 12, 2019 12:00:30 PM org.apache.coyote.AbstractProtocol start
+INFORMACIÓN: Starting ProtocolHandler ["ajp-apr-8009"]
+mar 12, 2019 12:00:30 PM org.apache.catalina.startup.Catalina start
+INFORMACIÓN: Server startup in 4266 ms
+mar 12, 2019 12:00:32 PM org.apache.catalina.startup.HostConfig undeploy
+INFORMACIÓN: Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto /FORMULARIOS
+mar 12, 2019 12:00:32 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMACIÓN: Desplieque del descriptor de configuración C:\tomcat\apache-tomcat-7.0.93\conf\Catalina\localhost\FORMULARIOS.xml
+mar 12, 2019 12:00:32 PM org.apache.catalina.startup.TldConfig execute
+INFORMACIÓN: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+mar 12, 2019 12:00:32 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMACIÓN: Deployment of configuration descriptor C:\tomcat\apache-tomcat-7.0.93\conf\Catalina\localhost\FORMULARIOS.xml has finished in 437 ms
+mar 12, 2019 12:00:32 PM org.apache.catalina.util.LifecycleBase start
+INFORMACIÓN: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/FORMULARIOS]] after start() had already been called. The second call will be ignored.
+mar 12, 2019 12:07:25 PM org.apache.jsp.mostrarGRes_jsp _jspService
+INFORMACIÓN: MOSTRAR GRES ID: 
+mar 12, 2019 12:07:25 PM org.apache.jsp.mostrarGRes_jsp _jspService
+ADVERTENCIA: MOSTRAR GRES 
+java.lang.NumberFormatException: For input string: "L0"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at Decrypt.DecryptSmAtrix.hexToBytes(DecryptSmAtrix.java:122)
+	at Decrypt.DecryptSmAtrix.decrypt(DecryptSmAtrix.java:92)
+	at org.apache.jsp.mostrarGRes_jsp._jspService(mostrarGRes_jsp.java:131)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:472)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:395)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:339)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1137)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2575)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2564)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+mar 12, 2019 12:07:25 PM org.apache.jsp.mostrarGRes_jsp _jspService
+INFORMACIÓN: esta es la prueba.
+mar 12, 2019 12:08:10 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+GRAVE: La aplicación web [/FORMULARIOS] registró el conductor JDBC [oracle.jdbc.OracleDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+mar 12, 2019 12:08:11 PM org.apache.catalina.startup.HostConfig undeploy
+INFORMACIÓN: Repliegue (undeploy) de la aplicación web que tiene como trayectoria de contexto /FORMULARIOS
+mar 12, 2019 12:08:11 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMACIÓN: Desplieque del descriptor de configuración C:\tomcat\apache-tomcat-7.0.93\conf\Catalina\localhost\FORMULARIOS.xml
+mar 12, 2019 12:08:11 PM org.apache.catalina.startup.TldConfig execute
+INFORMACIÓN: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+mar 12, 2019 12:08:11 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFORMACIÓN: Deployment of configuration descriptor C:\tomcat\apache-tomcat-7.0.93\conf\Catalina\localhost\FORMULARIOS.xml has finished in 513 ms
+mar 12, 2019 12:08:11 PM org.apache.catalina.util.LifecycleBase start
+INFORMACIÓN: The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/FORMULARIOS]] after start() had already been called. The second call will be ignored.
+mar 12, 2019 12:08:19 PM FORM.LoginServlet doPost
+ADVERTENCIA: theException
+java.lang.Exception: Empty string
+	at Decrypt.DecryptSmAtrix.decrypt(DecryptSmAtrix.java:85)
+	at FORM.LoginServlet.doPost(LoginServlet.java:96)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:650)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:494)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:104)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:1025)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1137)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.doRun(AprEndpoint.java:2575)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:2564)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+mar 12, 2019 12:08:29 PM org.apache.jsp.mostrarGRes_jsp _jspService
+INFORMACIÓN: MOSTRAR GRES ID: 
+mar 12, 2019 12:08:29 PM org.apache.jsp.mostrarGRes_jsp _jspService
+INFORMACIÓN: MOSTRAR GRES ID: 
+mar 12, 2019 12:08:30 PM org.apache.jsp.mostrarGRes_jsp _jspService
+INFORMACIÓN: MOSTRAR GRES res: 
+mar 12, 2019 12:08:30 PM org.apache.jsp.mostrarGRes_jsp _jspService
+INFORMACIÓN: MOSTRAR GRES res: 
+mar 12, 2019 12:08:30 PM org.apache.jsp.mostrarGRes_jsp _jspService
+INFORMACIÓN: esta es la prueba.
+mar 12, 2019 12:14:12 PM org.apache.catalina.core.StandardServer await
+INFORMACIÓN: Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+mar 12, 2019 12:14:12 PM org.apache.coyote.AbstractProtocol pause
+INFORMACIÓN: Pausing ProtocolHandler ["http-apr-8090"]
+mar 12, 2019 12:14:12 PM org.apache.coyote.AbstractProtocol pause
+INFORMACIÓN: Pausing ProtocolHandler ["ajp-apr-8009"]
+mar 12, 2019 12:14:12 PM org.apache.catalina.core.StandardService stopInternal
+INFORMACIÓN: Parando servicio Catalina
+mar 12, 2019 12:14:12 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesJdbc
+GRAVE: La aplicación web [/FORMULARIOS] registró el conductor JDBC [oracle.jdbc.OracleDriver] pero falló al anular el registro mientras la aplicación web estaba parada. Para prevenir un fallo de memoria, se ha anulado el registro del conductor JDBC por la fuerza.
+mar 12, 2019 12:14:12 PM org.apache.coyote.AbstractProtocol stop
+INFORMACIÓN: Stopping ProtocolHandler ["http-apr-8090"]
+mar 12, 2019 12:14:12 PM org.apache.coyote.AbstractProtocol stop
+INFORMACIÓN: Stopping ProtocolHandler ["ajp-apr-8009"]
+mar 12, 2019 12:14:12 PM org.apache.coyote.AbstractProtocol destroy
+INFORMACIÓN: Destroying ProtocolHandler ["http-apr-8090"]
+mar 12, 2019 12:14:12 PM org.apache.coyote.AbstractProtocol destroy
+INFORMACIÓN: Destroying ProtocolHandler ["ajp-apr-8009"]
